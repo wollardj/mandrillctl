@@ -1,10 +1,10 @@
 mandrillctl
 ===========
 
-Command line tool for managing a Mandrill server. Mandrill is a front-end web service for Munki. If you've never heard of either of these products, you probably don't need mandrillctl.
+Command line tool for managing a [Mandrill](https://github.com/wollardj/Mandrill) server. Mandrill is a front-end web service for Munki. If you've never heard of either of these products, you probably don't need mandrillctl.
 
 ## Installation
-You'll probably want to install this in your path, which requires `sudo`.
+You'll probably want to install this in your path (which is `/usr/local/bin/` after node is installed), which requires `sudo`.
 
 ```
 sudo npm install -g mandrillctl
