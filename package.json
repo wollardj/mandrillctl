@@ -1,6 +1,6 @@
 {
 	"name": "mandrillctl",
-	"version": "0.6.0",
+	"version": "0.6.2",
 	"description": "Commandline interface for managing the Mandrill web service. Note: This has _nothing_ to do with MailChimp - different Mandrill.",
 	"author": {
 		"name": "Joe Wollard",
