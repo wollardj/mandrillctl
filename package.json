@@ -17,6 +17,10 @@
 		"sysadmin",
 		"administration"
 	],
+	"engines": {
+		"node": ">=0.10.22"
+	},
+	"engineStrict": true,
 	"os": [ "darwin" ],
 	"preferGlobal": "true",
 	"main": "mandrillctl.js",
