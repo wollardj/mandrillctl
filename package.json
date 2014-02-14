@@ -1,0 +1,19 @@
+{
+	"name": "mandrillctl",
+	"version": "0.6.0",
+	"description": "Commandline interface for managing the Mandrill web service",
+	"author": {
+		"name": "Joe Wollard",
+		"email": "joe.wollard@gmail.com"
+	},
+	"preferGlobal": "true",
+	"main": "mandrillctl.js",
+	"bin": "./mandrillctl.js",
+	"dependencies": {
+		"commander": "~2.1.0",
+		"deep-diff": "0.1.4",
+		"prompt": "0.2.12",
+		"colors": "~0.6.2",
+		"shelljs": "0.2.6"
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"mongo": {
+		"installUrl": "http://downloads.mongodb.org/osx/mongodb-osx-x86_64-2.4.9.tgz",
+		"identifier": "com.github.mandrill.mongod",
+		"daemonUser": "_mongo",
+		"daemonGroup": "_mongo",
+		"configPath": "/usr/local/MongoDB/mongo.conf",
+		"configContent": [
+			"dbpath = /usr/local/MongoDB/data",
+			"bind_ip = 127.0.0.1",
+			"noauth = true",
+			"directoryperdb = true"
+		]
+	},
+	"mandrill": {
+		"latestJsonUrl": "https://github.com/DenisonTechServ/Mandrill/releases/download/latest/latest.json",
+		"identifier": "com.github.mandrill.mandrilld",
+		"daemonUser": "_mandrill",
+		"daemonGroup": "munki",
+		"server": {
+			"installPath": "/usr/local/Mandrill",
+			"port": 80,
+			"rootUrl": "http://localhost",
+			"mongoUrl": "mongodb://localhost:27017/Mandrill"
+		}
+	}
+}
