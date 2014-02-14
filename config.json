@@ -13,7 +13,7 @@
 		]
 	},
 	"mandrill": {
-		"latestJsonUrl": "https://github.com/DenisonTechServ/Mandrill/releases/download/latest/latest.json",
+		"latestJsonUrl": "https://github.com/wollardj/Mandrill/releases/download/latest/latest.json",
 		"identifier": "com.github.mandrill.mandrilld",
 		"daemonUser": "_mandrill",
 		"daemonGroup": "munki",

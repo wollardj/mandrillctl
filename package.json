@@ -1,11 +1,23 @@
 {
 	"name": "mandrillctl",
 	"version": "0.6.0",
-	"description": "Commandline interface for managing the Mandrill web service",
+	"description": "Commandline interface for managing the Mandrill web service. Note: This has _nothing_ to do with MailChimp - different Mandrill.",
 	"author": {
 		"name": "Joe Wollard",
 		"email": "joe.wollard@gmail.com"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wollardj/mandrillctl.git"
+	},
+	"keywords": [
+		"munki",
+		"mandrill",
+		"OS X",
+		"sysadmin",
+		"administration"
+	],
+	"os": [ "darwin" ],
 	"preferGlobal": "true",
 	"main": "mandrillctl.js",
 	"bin": "./mandrillctl.js",
