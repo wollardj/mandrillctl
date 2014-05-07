@@ -50,5 +50,5 @@ sudo mandrillctl --stop
 When a new version of Mandrill comes out, all you need to do to install it is run:
 
 ```
-sudo mandrillctl --upgrade
+sudo mandrillctl --update
 ```
